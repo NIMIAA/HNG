@@ -1,0 +1,135 @@
+@media(max-width:1024px){
+      .navbar-logo {
+        flex: 1;
+      }
+      
+      .hero {
+        display: block;
+        margin-top: 50px;   
+      }
+      .content {
+        max-width: 100%;
+        margin: 50px 0 0 0;
+      }
+      
+      /* -------------- ABOUT US----------------- */
+      .title {
+        font-size: 20px;
+      }
+      
+      .about-me-content {
+        display: block;
+        
+      }
+      .my-image{
+        display: none;
+      }
+      .mobile-view-image{
+        display: block;
+      }
+      .about-me {
+        max-width: 100%;
+        margin:20px 0 0 0;
+      }
+      .my-story {
+        margin-right: 0;
+      }
+
+      /* --------- GOAL PAGE -------------- */
+      
+      
+      .goal-content{
+        display: block;
+        margin: 20px 20px 0;
+        padding: 20px;
+       
+      }
+      .goals{
+        margin: 0px;
+        line-height: 1.5rem;
+        width: 100%;
+      }
+      .goals h5{
+        color: #f86f03;
+      }
+      .goals p{
+        padding-left: 10px;
+      }
+      /* ----------CONTACT PAGE------------ */
+      
+      .contact {
+          display: block;
+          width: 100%;
+          margin: 30px 0;
+      }
+      
+      .contact-info {
+          width: 100%;
+          padding-top: 0px;
+          margin: 30px 0;
+      }
+      
+      .contact-form {
+          width: 100%;
+          color: white;
+          margin: 40px 0;
+      }
+}
+@media(max-width:768px){
+    .navbar-menu{
+        display: none;
+      }
+      .navbar .btn{
+        display: none;
+      }
+      .navbar-toggle{
+        display: block;
+        cursor: pointer;
+      }
+      .navbar-menu.active{
+        position: absolute;
+        top: 100%;
+        right:0;
+        display: block;
+        background: #461959;
+        margin-right: 10px;
+        height: 100vh;
+      }
+      .navbar-menu li{
+        margin: 10px;
+        padding: 10px 25px;
+      }
+      .navbar-menu a{
+        padding: 10px 15px;
+      }
+      .navbar-menu li:hover{
+        background-color: #6c3e80;
+
+      }
+    
+}
+@media(max-width:480px){
+    .greeting {
+        font-size: 1.1rem;
+      }
+    .role {
+        font-size: 1rem;
+        
+      }
+    .goals{
+        text-align: left;
+    }
+    .input-container{
+        display: block;
+        
+    }
+    .input-container input{
+        width: 100%;
+    }
+    .footer-text {
+        font-size: 12px;
+      }
+}
+
+  
+  
